@@ -22,6 +22,7 @@ header h1 {
     font-size: 40px;
     margin: 0;
     display: inline;
+    text-shadow: 2px 2px black;
 }
 
 header a {
@@ -33,11 +34,13 @@ header a {
 header nav {
     float: right;
     margin: 10px 0;
+    text-shadow: 2px 2px black;
 }
 
 header nav ul li {
     display: inline;
     font-size: 20px;
+    
 }
 
 .hero {
@@ -54,8 +57,99 @@ header nav ul li {
     padding: 0 100px 20px 100px;
 }
 
+/*About Me Style starts*/
 .me {
-    text-align: left;
+    text-align: center;
+    padding: 0;
+    overflow: auto;
+    background-color: #D2D0CF;
+
+}
+
+.me h2 {
+    border-bottom: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.me article {
+    float: left;
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 0 25px;
+}
+
+.selfie  img{
+    width: 25%;
+    float: left;
+    position: relative;
+    padding: 0 0 0 10px;
+    box-shadow: 10px 0 10px 0 black;
+    margin-bottom: 20px;
+}
+
+/*about me style ends*/
+
+
+/*my creations style starts*/
+.work {
+    text-align: center;
+    padding: 0;
+    background-color: #f1d922;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.work div {
+    justify-content: left;
+}
+
+
+/*my creation style ends*/
+
+
+.mail {
+    text-align: center;
     margin: 0;
     padding: 0;
+    background-color: #5A5655;
+}
+
+.mail h2 {
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+    box-shadow: 0 0 10px 0 black;
+    margin: 0 0 50px 0;
+}
+
+.address {
+    margin: 0 0 50px 0;
+}
+
+.mail ul li {
+    color: white;
+    float: center;
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+    padding: 0 200px 0 200px;    
+    justify-content: center;
+    margin: 0 0 20px 0;
+
+}
+
+footer {
+    background-color:#5A5655;
+    width: 100%;
+    padding:  40px 70px;
+    height: 140px;
 }
